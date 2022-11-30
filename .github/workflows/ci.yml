@@ -1,0 +1,51 @@
+name: continuous integration workflow
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  Build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn install
+      - name: Run linting
+        run: yarn lint
+      - name: Run Test
+        run: yarn test
+      - name: Run Build
+        run: yarn build
+        env:
+          CI: true
+  # Deploy:
+  #   runs-on: ubuntu-latest
+  #   if: "!contains(github.event.head_commit.message, '[skip ci]')"
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v2
+  #     - name: Deploy to Vercel Action
+  #       uses: BetaHuhn/deploy-to-vercel-action@v1
+  #       with:
+  #         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+  #         VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+  #         VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  #         VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
+  # Test:
+  #   name: Test
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Clone repository
+  #       uses: actions/checkout@v2
+  #     - name: Install dependencies
+  #       run: yarn install
+  #     - name: Run Test
+  #       run: yarn test
+  #       env:
+  #         CI: true
