@@ -11,6 +11,7 @@ const Header = () => {
       px={8}
       justifyContent="space-between"
       alignItems="center"
+      bg="white"
     >
       <Heading>Androit</Heading>
       <NavBar />
