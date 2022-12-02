@@ -5,8 +5,8 @@ describe("Home", () => {
   it("renders a heading", () => {
     render(<Home />);
 
-    const heading = screen.getByText(/Androit/gi);
+    const headings = screen.getAllByText(/Androit/i);
 
-    expect(heading).toBeInTheDocument();
+    expect(headings[0]).toBeInTheDocument();
   });
 });

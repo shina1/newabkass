@@ -3,6 +3,7 @@ import { Box } from "@chakra-ui/react";
 import Header from "../components/Header";
 import Image from "next/image";
 import SlideShow from "../components/SlideShow";
+import Classes from "../components/Classes";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <meta name="description" content="Impact through code learning" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Box pos="relative" minH="100vh">
+      <Box pos="relative" minH="100vh" overflow="hidden">
         <Box pos="absolute" zIndex={-10} inset={0}>
           <Image
             alt=""
@@ -25,6 +26,7 @@ export default function Home() {
         <Box>
           <Header />
           <SlideShow />
+          <Classes />
         </Box>
       </Box>
     </Box>
