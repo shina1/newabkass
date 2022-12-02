@@ -6,9 +6,32 @@ import {
 
 interface LinkProps extends ChakraLinkProps {
   pathName: string;
+  type?: "button";
+  text?: string;
 }
 
-const Link: React.FC<LinkProps> = ({ pathName, color, ...props }) => {
+const Link: React.FC<LinkProps> = ({
+  pathName,
+  type,
+  text,
+  color,
+  ...props
+}) => {
+  if (type) {
+    return (
+      <ChakraLink
+        as={NextLink}
+        href={`${pathName.toLowerCase()}`}
+        color={"white"}
+        {...props}
+        bg="bgOrange"
+        p={4}
+        borderRadius={4}
+      >
+        {text}
+      </ChakraLink>
+    );
+  }
   return (
     <ChakraLink
       as={NextLink}
