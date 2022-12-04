@@ -25,7 +25,8 @@ const Link: React.FC<LinkProps> = ({
         color={"white"}
         {...props}
         bg="bgOrange"
-        p={4}
+        py={2}
+        px={4}
         borderRadius={4}
       >
         {text}

@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Image from "next/image";
 import SlideShow from "../components/SlideShow";
 import Classes from "../components/Classes";
+import Programs from "../components/Programs";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
           <Header />
           <SlideShow />
           <Classes />
+          <Programs />
         </Box>
       </Box>
     </Box>
