@@ -21,7 +21,7 @@ const Link: React.FC<LinkProps> = ({
     return (
       <ChakraLink
         as={NextLink}
-        href={`${pathName.toLowerCase()}`}
+        href={`${pathName}`}
         color={"white"}
         {...props}
         bg="bgOrange"

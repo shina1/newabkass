@@ -60,7 +60,12 @@ const Classes = () => {
             Adults can learn frontend and backend for web development at
             affordable price too.
           </Heading>
-          <Link type="button" pathName="index" text="Get Started For Free" />
+          <Link
+            type="button"
+            pathName="https://docs.google.com/forms/d/e/1FAIpQLSdltDm3s9mSpshCEjhh81TI8ZhriSaXLJmHecauM0xfzdAc5w/viewform?usp=sf_link"
+            isExternal
+            text="Get Started For Free"
+          />
         </VStack>
       </Container>
     </Box>
