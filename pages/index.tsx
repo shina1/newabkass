@@ -5,6 +5,7 @@ import Image from "next/image";
 import SlideShow from "../components/SlideShow";
 import Classes from "../components/Classes";
 import Programs from "../components/Programs";
+import Pledges from "../components/Pledges";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
           <SlideShow />
           <Classes />
           <Programs />
+          <Pledges />
         </Box>
       </Box>
     </Box>

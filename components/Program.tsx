@@ -20,7 +20,12 @@ const Program: React.FC<ProgramProps> = ({ text }) => {
       <Heading lineHeight={1.6} textAlign="center" fontSize="md">
         {text}
       </Heading>
-      <Link type="button" pathName="index" text="Enroll" />
+      <Link
+        type="button"
+        pathName="https://docs.google.com/forms/d/e/1FAIpQLSdltDm3s9mSpshCEjhh81TI8ZhriSaXLJmHecauM0xfzdAc5w/viewform?usp=sf_link"
+        isExternal
+        text="Enroll"
+      />
     </Flex>
   );
 };
