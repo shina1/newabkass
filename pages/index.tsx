@@ -6,6 +6,8 @@ import SlideShow from "../components/SlideShow";
 import Classes from "../components/Classes";
 import Programs from "../components/Programs";
 import Pledges from "../components/Pledges";
+import Course from "../components/Course";
+import Courses from "../components/Courses";
 
 export default function Home() {
   return (
@@ -31,6 +33,19 @@ export default function Home() {
           <Classes />
           <Programs />
           <Pledges />
+
+          <Courses title="Courses For Ages 7 - 12">
+            <Course title="HTML & CSS" src="/hc.png" />
+            <Course title="SCRATCH" src="/sc.png" />
+            <Course title="PYTHON" src="/py.png" />
+            <Course title="JAVASCRIPT" src="/js.png" />
+          </Courses>
+          <Courses title="Courses For Ages 17+">
+            <Course title="HTML & CSS" src="/hc.png" />
+            <Course title="FRONTEND" src="/fe.png" />
+            <Course title="BACKEND" src="/be.jpg" />
+            <Course title="FULLSTACK" src="/mam.png" />
+          </Courses>
         </Box>
       </Box>
     </Box>
