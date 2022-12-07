@@ -8,6 +8,7 @@ import Programs from "../components/Programs";
 import Pledges from "../components/Pledges";
 import Course from "../components/Course";
 import Courses from "../components/Courses";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -46,6 +47,7 @@ export default function Home() {
             <Course title="BACKEND" src="/be.jpg" />
             <Course title="FULLSTACK" src="/mam.png" />
           </Courses>
+          <Footer />
         </Box>
       </Box>
     </Box>
