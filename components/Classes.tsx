@@ -48,7 +48,7 @@ const Classes = () => {
             grow.
           </Text>
           <Text>
-            Androit will help raise children who are responsible, who creates
+            Adroitz will help raise children who are responsible, who creates
             their own games using computer codes, creating apps, learn basics of
             building robots and creating websites. we also teach them what to do
             with the money that comes into their hands and entrepreneural
