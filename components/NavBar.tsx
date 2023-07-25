@@ -12,14 +12,14 @@ const NavBar = () => {
           <Link
             color="white"
             _hover={{ color: "bgOrange" }}
-            pathName="Summer Coding Bootcamp(Kids)"
+            pathName="O'LEVELS Programs"
           />
         </MenuItem>
         <MenuItem bg="transparent">
           <Link
             color="white"
             _hover={{ color: "bgOrange" }}
-            pathName="Adult Programs"
+            pathName="A'Levels Programs"
           />
         </MenuItem>
       </MenuDrawer>

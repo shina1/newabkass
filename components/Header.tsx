@@ -13,7 +13,7 @@ const Header = () => {
       alignItems="center"
       bg="white"
     >
-      <Heading>Adroitz</Heading>
+      <Heading>ABKASS</Heading>
       <NavBar />
       <MobileNav />
     </Flex>
