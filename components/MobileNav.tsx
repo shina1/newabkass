@@ -63,14 +63,14 @@ const MobileNav = () => {
                     <Link
                       color="white"
                       _hover={{ color: "bgOrange" }}
-                      pathName="Summer Coding Bootcamp(Kids)"
+                      pathName="O'LEVELS Programs"
                     />
                   </Box>
                   <Box>
                     <Link
                       color="white"
                       _hover={{ color: "bgOrange" }}
-                      pathName="Adult Programs"
+                      pathName="A'Levels Programs"
                     />
                   </Box>
                 </AccordionPanel>
