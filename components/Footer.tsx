@@ -36,7 +36,7 @@ const Footer = () => {
           variant="solid"
           my={1}
         >
-          <Text textAlign="justify">
+          <Text textAlign="justify" my={1}>
             No 13, Taoheed Road <br /> Opposite Animashaun Estate, <br /> Basin
             Ilorin. Kwara State.
           </Text>
