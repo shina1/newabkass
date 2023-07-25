@@ -34,9 +34,11 @@ const Footer = () => {
           colorScheme="transparent"
           leftIcon={<CiLocationOn size={25} />}
           variant="solid"
+          my={1}
         >
           <Text textAlign="justify">
-            No 30, Western Reservoir Road <br /> Olorunshogo Ilorin Kwara State
+            No 13, Taoheed Road <br /> Opposite Animashaun Estate, <br /> Basin
+            Ilorin. Kwara State.
           </Text>
         </Button>
         <Button
@@ -44,8 +46,10 @@ const Footer = () => {
           colorScheme="transparent"
           leftIcon={<FaPhoneAlt />}
           variant="solid"
+          my={1}
         >
-          08071965540 08178435354
+          +2347057486170 +2349040042960 <br />
+          abkassacademy@gmail.com
         </Button>
       </VStack>
       <VStack my={{ base: 10, lg: 0 }} alignItems="flex-start">

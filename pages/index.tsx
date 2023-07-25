@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <Box>
       <Head>
-        <title>Adroitz</title>
+        <title>ABKASS</title>
         <meta name="description" content="Impact through code learning" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -35,17 +35,19 @@ export default function Home() {
           <Programs />
           <Pledges />
 
-          <Courses title="Courses For Ages 7 - 12">
-            <Course title="HTML & CSS" src="/hc.png" />
-            <Course title="SCRATCH" src="/sc.png" />
-            <Course title="PYTHON" src="/py.png" />
-            <Course title="JAVASCRIPT" src="/js.png" />
+          <Courses title="O'LEVELS">
+            <Course title="WAEC" src="/hc.png" />
+            <Course title="NECO" src="/sc.png" />
+            <Course title="NABTEB" src="/py.png" />
+            <Course title="UTME" src="/js.png" />
+            <Course title="POST UTME" src="/js.png" />
           </Courses>
-          <Courses title="Courses For Ages 17+">
-            <Course title="HTML & CSS" src="/hc.png" />
-            <Course title="FRONTEND" src="/fe.png" />
-            <Course title="BACKEND" src="/be.jpg" />
-            <Course title="FULLSTACK" src="/mam.png" />
+          <Courses title="A'LEVELS">
+            <Course title="IJMB" src="/hc.png" />
+            <Course title="JUPEB" src="/fe.png" />
+            <Course title="CAMBRIDGE" src="/be.jpg" />
+            <Course title="NABTEB A'LEVEL" src="/mam.png" />
+            <Course title="CAIL'S KWASU" src="/mam.png" />
           </Courses>
           <Footer />
         </Box>

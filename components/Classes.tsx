@@ -26,45 +26,51 @@ const Classes = () => {
           icon={<Icon color="white" as={FaPen} />}
           name="1:1 Private Class"
         />
-        <Class icon={<Icon color="white" as={MdGroups} />} name="Group Class" />
-        <Class icon={<Icon color="white" as={FaSchool} />} name="School Club" />
+        <Class
+          icon={<Icon color="white" as={MdGroups} />}
+          name="Mock CBT Tests"
+        />
+        <Class
+          icon={<Icon color="white" as={FaSchool} />}
+          name="Practical Classes"
+        />
         <Class
           icon={<Icon color="white" as={MdOnlinePrediction} />}
           name="Online Class"
         />
       </SimpleGrid>
       <Container maxW="90vw">
-        <Heading>Start Coding Now!</Heading>
+        <Heading>Start Learning Now!</Heading>
         <VStack spacing={8} my={8}>
           <Text>
-            We teach kids Web Development, Games, and Robotics. We raise
-            children who are sound in computer technological usage (coding) with
-            adequate financial knowledge.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            laboriosam fugit ducimus laborum fuga esse perferendis dolores amet
+            necessitatibus, hic laudantium nemo quisquam dolorum velit sit, sed
+            alias. Blanditiis, impedit.
           </Text>
           <Text>
-            in this digital world, children need to be taught early the use of
-            computer codes in other to solve problem, create better chances for
-            their future, and taught how to use their finances properly as they
-            grow.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            laboriosam fugit ducimus laborum fuga esse perferendis dolores amet
+            necessitatibus, hic laudantium nemo quisquam dolorum velit sit, sed
+            alias. Blanditiis, impedit.
           </Text>
           <Text>
-            Adroitz will help raise children who are responsible, who creates
-            their own games using computer codes, creating apps, learn basics of
-            building robots and creating websites. we also teach them what to do
-            with the money that comes into their hands and entrepreneural
-            skills.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            laboriosam fugit ducimus laborum fuga esse perferendis dolores amet
+            necessitatibus, hic laudantium nemo quisquam dolorum velit sit, sed
+            alias. Blanditiis, impedit.
           </Text>
         </VStack>
         <VStack alignItems="flex-start" spacing={8}>
           <Heading size="md">
-            Adults can learn frontend and backend for web development at
-            affordable price too.
+            Gain admision into any university of your choise in Nigeria and
+            overseas without stress
           </Heading>
           <Link
             type="button"
             pathName="https://docs.google.com/forms/d/e/1FAIpQLSdltDm3s9mSpshCEjhh81TI8ZhriSaXLJmHecauM0xfzdAc5w/viewform?usp=sf_link"
             isExternal
-            text="Get Started For Free"
+            text="Join Us"
           />
         </VStack>
       </Container>

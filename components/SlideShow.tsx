@@ -29,7 +29,7 @@ const SlideItem: React.FC<SlideItemProps> = ({ heading, subHeading }) => {
         type="button"
         pathName="https://docs.google.com/forms/d/e/1FAIpQLSdltDm3s9mSpshCEjhh81TI8ZhriSaXLJmHecauM0xfzdAc5w/viewform?usp=sf_link"
         isExternal
-        text="Get Started For Free"
+        text="Join Us"
       />
     </VStack>
   );
@@ -67,16 +67,16 @@ const SlideShow = () => {
         whiteSpace={"nowrap"}
       >
         <SlideItem
-          heading="WEEKEND CLASSES"
-          subHeading="Physical (In-person) and Virtual (Online) Coding Classes"
+          heading="SUMMER COACHING"
+          subHeading="Starts 4th August - 11th September"
         />
         <SlideItem
-          heading="ADULT CLASSES"
-          subHeading="Physical (In-person) and Virtual (Online) Coding Classes"
+          heading="One-On-One Classes"
+          subHeading="Physical (In-person) and Virtual (Online) Tutoring Classes"
         />
         <SlideItem
-          heading="SUMMER BOOTCAMP CLASSES"
-          subHeading="Physical (In-person) and Virtual (Online) Coding Classes"
+          heading="TOP NOTCH FACILITIES"
+          subHeading="Well equiped science laboratory and conducive learning enviroment"
         />
       </Box>
     </Container>

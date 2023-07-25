@@ -8,11 +8,15 @@ const Programs = () => {
       <Heading textAlign="center" mb={4}>
         OUR TRENDING PROGRAMS.
       </Heading>
-      <SimpleGrid columns={{ base: 1, lg: 4 }} spacing={10}>
-        <Program text="CODING & DIGITAL LITERACY CLASSES ONLINE & ONSITE (AGES 7 TO 16)" />
-        <Program text="SUMMER CODING BOOTCAMP ONLINE & ONSITE (AGES 7 TO 16)" />
-        <Program text="AFTER SCHOOL AND WEEKEND CODING CLASSES ONLINE & ONSITE (AGES 7 TO 16" />
-        <Program text="FRONT END AND BACK END PROGRAM FOR ADULT (5 MONTHS)" />
+
+      <SimpleGrid columns={{ base: 1, lg: 3 }} spacing={10}>
+        <Program title="O'Levels" text="WAEC, NECO, NABTEB, UTME, POST UTME" />
+        <Program
+          title="A'Levels"
+          text="IJMB, JUPEB, CAMBRIDGE, NABTEB A'LEVEL, CAILS'S KWASU"
+        />
+        <Program text="UNIVERISTY FOUNDATION PROGRAMES" />
+        {/* <Program text="FRONT END AND BACK END PROGRAM FOR ADULT (5 MONTHS)" /> */}
       </SimpleGrid>
     </Box>
   );

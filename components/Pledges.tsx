@@ -8,7 +8,7 @@ const Pledges = () => {
       <SimpleGrid columns={{ base: 1, lg: 2 }} spacing={5}>
         <Pledge
           img="/first.jfif"
-          title="A Memorable In-School Or Holiday Bootcamp Experience"
+          title="A Conducive Accomodation And Well Equiped Laboratory Facilities Available"
           subTitle=""
         />
         <Pledge
