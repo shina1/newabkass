@@ -36,18 +36,18 @@ export default function Home() {
           <Pledges />
 
           <Courses title="O'LEVELS">
-            <Course title="WAEC" src="/hc.png" />
-            <Course title="NECO" src="/sc.png" />
-            <Course title="NABTEB" src="/py.png" />
-            <Course title="UTME" src="/js.png" />
-            <Course title="POST UTME" src="/js.png" />
+            <Course title="WAEC" src="/waec.jpg" />
+            <Course title="NECO" src="/neco.jpg" />
+            <Course title="NABTEB" src="/nabteb.jpg" />
+            <Course title="UTME" src="/jamb.jpg" />
+            <Course title="POST UTME" src="/utme.jpg" />
           </Courses>
           <Courses title="A'LEVELS">
-            <Course title="IJMB" src="/hc.png" />
-            <Course title="JUPEB" src="/fe.png" />
-            <Course title="CAMBRIDGE" src="/be.jpg" />
-            <Course title="NABTEB A'LEVEL" src="/mam.png" />
-            <Course title="CAIL'S KWASU" src="/mam.png" />
+            <Course title="IJMB" src="/ijmb.jpg" />
+            <Course title="JUPEB" src="/jupeb.jpg" />
+            <Course title="CAMBRIDGE" src="/cambridge.png" />
+            <Course title="NABTEB A'LEVEL" src="/nabteb.jpg" />
+            <Course title="CAIL'S KWASU" src="/kwasu.jpg" />
           </Courses>
           <Footer />
         </Box>
