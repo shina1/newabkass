@@ -39,8 +39,8 @@ export default function Home() {
             <Course title="WAEC" src="/waec.png" />
             <Course title="NECO" src="/neco.jpg" />
             <Course title="NABTEB" src="/nabteb.jpg" />
-            <Course title="UTME" src="/jamb.png" />
-            <Course title="POST UTME" src="/utme.jpg" />
+            <Course title="UTME/POST UTME" src="/jamb.png" />
+            {/* <Course title="POST UTME" src="/utme.jpg" /> */}
           </Courses>
           <Courses title="A'LEVELS">
             <Course title="IJMB" src="/ijmb.jpg" />
