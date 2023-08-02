@@ -53,6 +53,7 @@ export default function Home() {
             <Course title="CAMBRIDGE" src="/cambridge.png" />
             <Course title="IELTS" src="/ielts.png" />
             <Course title="TOEFL" src="/ets.png" />
+            <Course title="SAT" src="/sat.png" />
           </Courses>
           <Footer />
         </Box>
