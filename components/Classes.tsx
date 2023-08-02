@@ -68,7 +68,7 @@ const Classes = () => {
           </Heading>
           <Link
             type="button"
-            pathName="https://docs.google.com/forms/d/e/1FAIpQLSdltDm3s9mSpshCEjhh81TI8ZhriSaXLJmHecauM0xfzdAc5w/viewform?usp=sf_link"
+            pathName="https://forms.gle/M1o6Dn59BxkW25rbA"
             isExternal
             text="Join Us"
           />
