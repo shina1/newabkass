@@ -67,8 +67,8 @@ const SlideShow = () => {
         whiteSpace={"nowrap"}
       >
         <SlideItem
-          heading="SUMMER COACHING"
-          subHeading="Starts 4th August - 11th September"
+          heading="Hostel Facilities"
+          subHeading="Well equiped science laboratory and conducive learning enviroment"
         />
         <SlideItem
           heading="One-On-One Classes"

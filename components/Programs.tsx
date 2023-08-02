@@ -13,9 +13,13 @@ const Programs = () => {
         <Program title="O'Levels" text="WAEC, NECO, NABTEB, UTME, POST UTME" />
         <Program
           title="A'Levels"
-          text="IJMB, JUPEB, CAMBRIDGE, NABTEB A'LEVEL, CAILS'S KWASU"
+          text="IJMB, JUPEB, NABTEB A'LEVEL, CAILS'S KWASU"
         />
-        <Program text="UNIVERISTY FOUNDATION PROGRAMES" />
+        {/* UNIVERISTY FOUNDATION PROGRAMES */}
+        <Program
+          title="International Exams"
+          text="CAMBRIDGE, TOEFL, IELTS, SAT, GRE, GMAT"
+        />
         {/* <Program text="FRONT END AND BACK END PROGRAM FOR ADULT (5 MONTHS)" /> */}
       </SimpleGrid>
     </Box>
